@@ -14,7 +14,7 @@
             <input class="new-todo" placeholder="What needs to be done?" ng-model="newTodo" autofocus>
         </form>
     </header>
-    <section class="main" ng-show="todos.length" ng-cloak>
+    <section class="main cell" ng-show="todos.length" ng-cloak>
         <input id="toggle-all" class="toggle-all" type="checkbox" ng-model="allChecked" ng-click="markAll(allChecked)">
         <label for="toggle-all">Mark all as complete</label>
         <div ng-view></div>
